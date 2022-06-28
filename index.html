@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Cálculo da Umidade do Solo</h1>
+
+  Para solo Fino (argila): </br>
+  Escolha o nível atual de umidade do solo:
+  <select name="umidadeSolo1" id="umidadeSolo1">
+    <option value="abaixo de 60">Abaixo de 60</option>
+    <option value="60 a 80">60 a 80</option>
+    <option value="80 a 100">80 a 100</option>
+  </select>
+  <input type="submit" id="soloFino" onclick="soloFino()" value="Click" /></br>
+  </br>
+
+  Para solo Médio (argilosa): </br>
+  Escolha o nível atual de umidade do solo:
+  <select name="umidadeSolo2" id="umidadeSolo2">
+    <option value="abaixo de 70">Abaixo de 70</option>
+    <option value="70 a 88">70 a 88</option>
+    <option value="88 a 100">88 a 100</option>
+  </select>
+  <input type="submit" id="soloMedio" onclick="soloMedio()" value="Click" /></br>
+  </br>
+
+  Para solo Grosseiro (arenosa): </br>
+  Escolha o nível atual de umidade do solo:
+  <select name="umidadeSolo3" id="umidadeSolo3">
+    <option value="abaixo de 80">Abaixo de 80</option>
+    <option value="80 a 90">80 a 90</option>
+    <option value="90 a 100">90 a 100</option>
+  </select>
+  <input type="submit" id="soloGrosseiro" onclick="soloGrosseiro()" value="Click" /></br>
+  </br>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
